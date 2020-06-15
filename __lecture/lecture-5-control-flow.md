@@ -183,8 +183,9 @@ for (let number = 0; number <= 12; number = number + 1) {
 Write a program that output all of the numbers from 0 to 25
 
 ```js
-// code here
-```
+for (let number = 0; number <= 25; number++) {
+  console.log(number)
+}
 
 ---
 
@@ -192,9 +193,7 @@ Write a program that output all of the numbers from 0 to 25
 
 Write a program that output all of ODD the numbers from 0 to 25
 
-```js
-// code here
-```
+for (let number = 0; number <= 25; number = )
 
 ---
 
@@ -202,8 +201,10 @@ Write a program that output all of ODD the numbers from 0 to 25
 
 Write a program that output all of the numbers from 0 to 25, but replaces all multipes of `5` by the phrase `five alive!`
 
-```js
-// code here
-```
-
----
+for (let num = 0; num <=25; num++;){
+  if (num % 5 === 0){
+    console.log('five alive!')
+  } else {
+    console.log(num);
+  }
+}
